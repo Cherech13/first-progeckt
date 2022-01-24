@@ -1,0 +1,49 @@
+.headline {
+    margin: 147px 15% 0 15%;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        width: 60%;
+        height: 184px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 80px;
+        line-height: 100%;
+        color: #212353;
+        font-weight: bold
+    }
+
+    .headline__text {
+        width: 54%;
+        height: 120px;
+        font-size: 18px;
+        line-height: 29px;
+        color: #4B5D68;
+        margin-bottom: 50px;
+    }
+
+    input {
+        width: 170px;
+        height: 60px;
+        background: #9C69E2;
+        border-radius: 50px;
+        position: relative;
+        color: white;
+    }
+
+    input:hover {
+        transition: 1s;
+        background: #4ce966;
+        color: rgba(250, 248, 245, 0.945);
+    }
+
+    img {
+        width: 75%;
+        height: 100%;
+        padding-left: 40%;
+        padding-top: 1px;
+    }
+}
