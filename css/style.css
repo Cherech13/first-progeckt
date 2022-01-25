@@ -414,12 +414,13 @@ header a:hover {
 
 .headline {
   margin: 147px 15% 0 15%;
+}
+.headline .headline__text {
   display: flex;
   flex-direction: column;
 }
 .headline .title {
-  width: 60%;
-  height: 184px;
+  width: 65%;
   margin-bottom: 50px;
 }
 .headline h1 {
@@ -428,9 +429,8 @@ header a:hover {
   color: #212353;
   font-weight: bold;
 }
-.headline .headline__text {
-  width: 54%;
-  height: 120px;
+.headline .text {
+  width: 40%;
   font-size: 18px;
   line-height: 29px;
   color: #4B5D68;
@@ -441,7 +441,6 @@ header a:hover {
   height: 60px;
   background: #9C69E2;
   border-radius: 50px;
-  position: relative;
   color: white;
 }
 .headline input:hover {
@@ -451,9 +450,11 @@ header a:hover {
 }
 .headline img {
   width: 75%;
-  height: 100%;
-  padding-left: 40%;
-  padding-top: 1px;
+}
+.headline .headline-img {
+  position: relative;
+  left: 409px;
+  top: -335px;
 }
 
 /*# sourceMappingURL=style.css.map */
