@@ -1,0 +1,27 @@
+.checkbox {
+    margin: 125px 15% 0 15%;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+
+    .checkbox-text {
+        width: 475px;
+        margin-left: 10%;
+    }
+    
+    h2 {
+        padding-top: 125px;
+        font-size: 37px;
+        line-height: 130%;
+        color: #212353;
+        font-weight: bold;
+    }
+
+    p {
+        padding-top: 40px;
+        font-size: 18px;
+        line-height: 160%;
+        color: #4B5D68;
+    }
+}
