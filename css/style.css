@@ -760,4 +760,65 @@ header a:focus {
   color: rgba(250, 248, 245, 0.945);
 }
 
+footer {
+  margin: 150px 15% 0 15%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .logo {
+  display: flex;
+}
+footer h4 {
+  color: #212353;
+  font-size: 20px;
+  line-height: 160%;
+  margin-left: 20px;
+}
+footer .logo {
+  padding-bottom: 35px;
+}
+footer .adress {
+  font-size: 16px;
+  line-height: 180%;
+  color: #212353;
+}
+footer .conect {
+  padding-top: 10px;
+  color: #212353;
+  font-size: 16px;
+  line-height: 180%;
+}
+footer .tel {
+  color: #212353;
+  font-size: 16px;
+  line-height: 180%;
+  margin-top: 1px;
+}
+footer h6 {
+  font-size: 16px;
+  color: #212353;
+  line-height: 160%;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+footer a {
+  color: #212353;
+  font-size: 16px;
+  line-height: 250%;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+footer a:hover {
+  box-shadow: -5px -5px 45px 14px #9c69e2;
+  transition: 1s;
+  background: #f569bd;
+  color: #fff;
+  border: 3px solid #20e931;
+}
+footer a:focus {
+  color: red;
+  border: 5px dashed #20e931;
+  background-color: #dde011;
+}
+
 /*# sourceMappingURL=style.css.map */
