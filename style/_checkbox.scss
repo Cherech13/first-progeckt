@@ -1,0 +1,67 @@
+.checkbox {
+    margin: 125px 15% 0 15%;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .checkbox-text {
+        width: 399px;
+        margin-left: 10%;
+
+        @include laptop {
+            width: 150px;
+            margin-left: 15%;
+         }       
+    }
+    
+    h2 {
+        padding-top: 125px;
+        font-size: 37px;
+        line-height: 130%;
+        color: #212353;
+        font-weight: bold;
+
+        @include tablet {
+            font-size: 20px;
+            padding-top: 5px;
+        }
+        
+        @include laptop {
+            font-size: 20px;
+        }
+    }
+
+    p {
+        padding-top: 40px;
+        font-size: 18px;
+        line-height: 160%;
+        color: #4B5D68;
+        
+        @include tablet {
+            margin-top: 10px;
+        }
+        
+        @include laptop {
+            font-size: 10px;
+         }
+    }
+
+    @include tablet {
+        margin: 20px 2% 0 2%;
+        height: auto;
+        width: 80%;
+    }
+
+    @include laptop {
+       height: 500px;
+       margin-top: 200px;
+    }
+
+    .checkbox-image {
+        @include laptop {
+            width: 400px;
+         }
+    }
+}

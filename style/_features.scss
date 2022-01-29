@@ -1,0 +1,220 @@
+.features {
+    margin: 150px 15% 0 15%;
+    width: 73%;
+
+    h2 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 130%;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #212353;
+    }
+
+    .features__text {
+        font-size: 18px;
+        line-height: 160%;
+        color: #4B5D68;
+        width: 584px;
+        margin-left: auto;
+        margin-right: auto;
+
+        p {
+            text-align: center;
+        }
+
+    }
+
+    .search {
+        margin-top: 100px;        
+        background:#d7fff9;
+        border-radius: 50px;
+        width: 90.5%;
+        display: flex;
+        align-items: center;
+        height: 358px;
+      
+        h4 {
+            font-size: 24px;
+            line-height: 130%;
+            color: #212353;
+            margin-top: 14px;
+        }
+    }
+
+    .search-image {
+        margin-left: -140px;
+
+        @include tablet {
+            margin-left: auto;
+        }
+    }
+
+    .search-text {
+        margin-left: 30px;
+        margin-right: 50px;
+
+        p {
+            margin-top: 35px;
+            font-size: 16px;
+            line-height: 160%;
+            color: #4B5D68;
+            margin-bottom: 30px;
+
+            @include tablet {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .access {
+        margin-top: 100px;        
+        background: #f2edf9;
+        border-radius: 50px;
+        width: 90.5%;
+        display: flex;
+        align-items: center;
+        height: 358px;
+      
+        h4 {
+            font-size: 24px;
+            line-height: 130%;
+            color: #212353;
+            margin-top: 14px;
+        }
+    }
+    .access-image {
+        margin-left: -140px;
+
+        @include tablet {
+            margin-left: auto;
+        }
+    }
+
+    .access-text {
+        margin-left: 30px;
+        margin-right: 50px;
+
+        p {
+            margin-top: 35px;
+            font-size: 16px;
+            line-height: 160%;
+            color: #4B5D68;
+            margin-bottom: 30px;
+
+            @include tablet {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .print {
+        margin-top: 100px;        
+        background:#f1e4ec;
+        border-radius: 50px;
+        width: 90.5%;
+        display: flex;
+        align-items: center;
+        height: 358px;
+      
+        h4 {
+            font-size: 24px;
+            line-height: 130%;
+            color: #212353;
+            margin-top: 14px;
+        }
+    }
+
+    .print-image {
+        margin-left: -140px;
+
+        @include tablet {
+            margin-left: auto;
+        }
+    }
+
+    .print-text {
+        margin-left: 30px;
+        margin-right: 50px;
+
+        p {
+            margin-top: 35px;
+            font-size: 16px;
+            line-height: 160%;
+            color: #4B5D68;
+            margin-bottom: 30px;
+
+            @include tablet {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .security {
+        margin-top: 100px;        
+        background:#cee0eb;
+        border-radius: 50px;
+        width: 90.5%;
+        display: flex;
+        align-items: center;
+        height: 358px;
+      
+        h4 {
+            font-size: 24px;
+            line-height: 130%;
+            color: #212353;
+            margin-top: 14px;
+        }
+    }
+    
+    .security-image {
+        margin-left: -140px;
+
+        @include tablet {
+            margin-left: auto;
+        }
+    }
+
+    .security-text {
+        margin-left: 30px;
+        margin-right: 50px;
+
+        p {
+            margin-top: 35px;
+            font-size: 16px;
+            line-height: 160%;
+            color: #4B5D68;
+            margin-bottom: 30px;
+
+            @include tablet {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 43%);
+        justify-content: space-between;
+
+        @include tablet {
+            margin: 20px 2% 0 2%;
+            grid-template-columns: repeat(1, 500px);
+        }
+    }
+
+    a:hover {
+        box-shadow: -5px -5px 45px 14px #e73e4d;
+        transition: 1s;
+        background: #f569bd;
+        color: #fff;
+        border: 3px solid rgb(32, 233, 49);
+    }
+
+    @include tablet {
+        margin: 20px 2% 0 2%;
+
+    }
+
+}
+

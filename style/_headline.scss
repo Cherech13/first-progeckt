@@ -1,11 +1,14 @@
 .headline {
     margin: 147px 15% 0 15%;
-    display: flex;
-    flex-direction: column;
+    height: 460px;
+    
+    .headline__text {
+        display: flex;
+        flex-direction: column;
+    }
 
     .title {
-        width: 60%;
-        height: 184px;
+        width: 65%;
         margin-bottom: 50px;
     }
 
@@ -13,16 +16,24 @@
         font-size: 80px;
         line-height: 100%;
         color: #212353;
-        font-weight: bold
+        font-weight: bold;
+        
+        @include tablet {
+            font-size: 20px;
+        }
     }
 
-    .headline__text {
-        width: 54%;
-        height: 120px;
+    .text {
+        width: 40%;
         font-size: 18px;
         line-height: 29px;
         color: #4B5D68;
         margin-bottom: 50px;
+
+        @include tablet {
+            font-size: 15px;
+            line-height: 15px;
+       }
     }
 
     input {
@@ -30,7 +41,6 @@
         height: 60px;
         background: #9C69E2;
         border-radius: 50px;
-        position: relative;
         color: white;
     }
 
@@ -42,8 +52,22 @@
 
     img {
         width: 75%;
-        height: 100%;
-        padding-left: 40%;
-        padding-top: 1px;
+        
     }
+
+    .headline-img {
+        position: relative; 
+        left: 409px;
+        top: -335px;
+       
+        @include tablet {
+            display: none;
+       }
+    }
+
+    @include tablet {
+        margin: 20px 2% 0 2%;
+        height: auto;
+   }
+
 }

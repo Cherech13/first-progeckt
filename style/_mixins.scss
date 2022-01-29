@@ -1,0 +1,29 @@
+@mixin tablet {
+    @media only screen and (max-width: $tablet) {
+      @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: $desktop * 1px) {
+      @content;
+    }
+  }
+
+  @mixin laptop {
+    @media only screen and (min-width: $laptop) {
+      @content;
+    }
+  }
+
+  @mixin largephone {
+    @media only screen and (min-width: $phone + 1px) {
+      @content;
+    }
+  }
+
+  @mixin phone {
+    @media only screen and (min-width: $phone) {
+      @content;
+    }
+  }

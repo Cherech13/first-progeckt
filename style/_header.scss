@@ -48,4 +48,14 @@ header {
 	color: #fff;
 	border: 3px solid rgb(32, 233, 49);
     }
+
+    a:focus {
+        color: red;
+        border: 5px  dashed rgb(32, 233, 49);
+        background-color: rgb(221, 224, 17);
+    }
+
+    @include tablet {
+        margin: 50px 30% 0 2%;;
+    }
 }
