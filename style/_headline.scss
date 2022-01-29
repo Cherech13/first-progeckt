@@ -16,7 +16,11 @@
         font-size: 80px;
         line-height: 100%;
         color: #212353;
-        font-weight: bold
+        font-weight: bold;
+        
+        @include tablet {
+            font-size: 20px;
+        }
     }
 
     .text {
@@ -25,6 +29,11 @@
         line-height: 29px;
         color: #4B5D68;
         margin-bottom: 50px;
+
+        @include tablet {
+            font-size: 15px;
+            line-height: 15px;
+       }
     }
 
     input {
@@ -50,6 +59,15 @@
         position: relative; 
         left: 409px;
         top: -335px;
+       
+        @include tablet {
+            display: none;
+       }
     }
+
+    @include tablet {
+        margin: 20px 2% 0 2%;
+        height: auto;
+   }
 
 }

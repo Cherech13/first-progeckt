@@ -416,6 +416,11 @@ header a:focus {
   border: 5px dashed #20e931;
   background-color: #dde011;
 }
+@media only screen and (max-width: 768px) {
+  header {
+    margin: 50px 30% 0 2%;
+  }
+}
 
 .headline {
   margin: 147px 15% 0 15%;
@@ -435,12 +440,23 @@ header a:focus {
   color: #212353;
   font-weight: bold;
 }
+@media only screen and (max-width: 768px) {
+  .headline h1 {
+    font-size: 20px;
+  }
+}
 .headline .text {
   width: 40%;
   font-size: 18px;
   line-height: 29px;
   color: #4B5D68;
   margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .headline .text {
+    font-size: 15px;
+    line-height: 15px;
+  }
 }
 .headline input {
   width: 170px;
@@ -462,6 +478,17 @@ header a:focus {
   left: 409px;
   top: -335px;
 }
+@media only screen and (max-width: 768px) {
+  .headline .headline-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .headline {
+    margin: 20px 2% 0 2%;
+    height: auto;
+  }
+}
 
 .checkbox {
   margin: 125px 15% 0 15%;
@@ -469,10 +496,17 @@ header a:focus {
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   display: flex;
+  flex-wrap: wrap;
 }
 .checkbox .checkbox-text {
-  width: 475px;
+  width: 399px;
   margin-left: 10%;
+}
+@media only screen and (min-width: 1024px) {
+  .checkbox .checkbox-text {
+    width: 150px;
+    margin-left: 15%;
+  }
 }
 .checkbox h2 {
   padding-top: 125px;
@@ -481,16 +515,55 @@ header a:focus {
   color: #212353;
   font-weight: bold;
 }
+@media only screen and (max-width: 768px) {
+  .checkbox h2 {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .checkbox h2 {
+    font-size: 20px;
+  }
+}
 .checkbox p {
   padding-top: 40px;
   font-size: 18px;
   line-height: 160%;
   color: #4B5D68;
 }
+@media only screen and (max-width: 768px) {
+  .checkbox p {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .checkbox p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .checkbox {
+    margin: 20px 2% 0 2%;
+    height: auto;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .checkbox {
+    height: 500px;
+    margin-top: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .checkbox .checkbox-image {
+    width: 400px;
+  }
+}
 
 .features {
   margin: 150px 15% 0 15%;
-  width: 80%;
+  width: 73%;
 }
 .features h2 {
   font-weight: bold;
@@ -513,7 +586,7 @@ header a:focus {
 }
 .features .search {
   margin-top: 100px;
-  background: #68C9BA;
+  background: #d7fff9;
   border-radius: 50px;
   width: 90.5%;
   display: flex;
@@ -529,6 +602,11 @@ header a:focus {
 .features .search-image {
   margin-left: -140px;
 }
+@media only screen and (max-width: 768px) {
+  .features .search-image {
+    margin-left: auto;
+  }
+}
 .features .search-text {
   margin-left: 30px;
   margin-right: 50px;
@@ -540,9 +618,14 @@ header a:focus {
   color: #4B5D68;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .features .search-text p {
+    font-size: 12px;
+  }
+}
 .features .access {
   margin-top: 100px;
-  background: #9C69E2;
+  background: #f2edf9;
   border-radius: 50px;
   width: 90.5%;
   display: flex;
@@ -558,6 +641,11 @@ header a:focus {
 .features .access-image {
   margin-left: -140px;
 }
+@media only screen and (max-width: 768px) {
+  .features .access-image {
+    margin-left: auto;
+  }
+}
 .features .access-text {
   margin-left: 30px;
   margin-right: 50px;
@@ -569,9 +657,14 @@ header a:focus {
   color: #4B5D68;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .features .access-text p {
+    font-size: 12px;
+  }
+}
 .features .print {
   margin-top: 100px;
-  background: #F063B8;
+  background: #f1e4ec;
   border-radius: 50px;
   width: 90.5%;
   display: flex;
@@ -587,6 +680,11 @@ header a:focus {
 .features .print-image {
   margin-left: -140px;
 }
+@media only screen and (max-width: 768px) {
+  .features .print-image {
+    margin-left: auto;
+  }
+}
 .features .print-text {
   margin-left: 30px;
   margin-right: 50px;
@@ -598,9 +696,14 @@ header a:focus {
   color: #4B5D68;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .features .print-text p {
+    font-size: 12px;
+  }
+}
 .features .security {
   margin-top: 100px;
-  background: #2D9CDB;
+  background: #cee0eb;
   border-radius: 50px;
   width: 90.5%;
   display: flex;
@@ -616,6 +719,11 @@ header a:focus {
 .features .security-image {
   margin-left: -140px;
 }
+@media only screen and (max-width: 768px) {
+  .features .security-image {
+    margin-left: auto;
+  }
+}
 .features .security-text {
   margin-left: 30px;
   margin-right: 50px;
@@ -627,11 +735,21 @@ header a:focus {
   color: #4B5D68;
   margin-bottom: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .features .security-text p {
+    font-size: 12px;
+  }
+}
 .features .cards {
   display: grid;
   grid-template-columns: repeat(2, 43%);
-  grid-template-rows: repeat(2, 46%);
   justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  .features .cards {
+    margin: 20px 2% 0 2%;
+    grid-template-columns: repeat(1, 500px);
+  }
 }
 .features a:hover {
   box-shadow: -5px -5px 45px 14px #e73e4d;
@@ -640,11 +758,16 @@ header a:focus {
   color: #fff;
   border: 3px solid #20e931;
 }
+@media only screen and (max-width: 768px) {
+  .features {
+    margin: 20px 2% 0 2%;
+  }
+}
 
 .testimonials {
   background: #9C69E2;
   border-radius: 50px;
-  width: 78%;
+  width: 70%;
   height: 709px;
   margin: 150px 15% 0 15%;
 }
@@ -656,6 +779,13 @@ header a:focus {
   padding-left: 93px;
   padding-top: 109px;
 }
+@media only screen and (max-width: 768px) {
+  .testimonials h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+  }
+}
 .testimonials .wraper {
   background: #FFFFFF;
   border-radius: 20px;
@@ -664,9 +794,21 @@ header a:focus {
   margin: 85px 237px 133px 236px;
   box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
 }
+@media only screen and (max-width: 768px) {
+  .testimonials .wraper {
+    width: 300px;
+    height: 300px;
+    margin: 38px 0px 2px 182px;
+  }
+}
 .testimonials img {
   padding-left: 70px;
   padding-top: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .testimonials img {
+    padding-left: 20px;
+  }
 }
 .testimonials .wraper-text {
   display: flex;
@@ -675,12 +817,24 @@ header a:focus {
   margin-top: -66px;
   width: 60%;
 }
+@media only screen and (max-width: 768px) {
+  .testimonials .wraper-text {
+    width: auto;
+    padding-left: 125px;
+    margin-top: -110px;
+  }
+}
 .testimonials h4 {
   color: #212353;
   font-size: 18px;
   line-height: 160%;
   letter-spacing: 0.005em;
   font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .testimonials h4 {
+    font-size: 13px;
+  }
 }
 .testimonials a {
   text-decoration: none;
@@ -704,6 +858,18 @@ header a:focus {
   line-height: 180%;
   color: #4B5D68;
 }
+@media only screen and (max-width: 768px) {
+  .testimonials p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .testimonials {
+    width: 80%;
+    height: 500px;
+    margin: 50px 2% 0 2%;
+  }
+}
 
 .down-title {
   padding-top: 150px;
@@ -719,6 +885,11 @@ header a:focus {
   line-height: 130%;
   color: #212353;
 }
+@media only screen and (max-width: 768px) {
+  .down-title h2 {
+    font-size: 25px;
+  }
+}
 .down-title p {
   font-size: 18px;
   line-height: 160%;
@@ -730,7 +901,6 @@ header a:focus {
   margin: 0 15% 0 15%;
   justify-content: space-between;
   align-items: center;
-  margin-right: 7%;
 }
 .down-title .button-second {
   background: #FFFFFF;
@@ -741,6 +911,13 @@ header a:focus {
   color: #212353;
   margin-left: 30px;
   margin-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .down-title .button-second {
+    width: 170px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
 }
 .down-title .button-second:hover {
   transition: 1s;
@@ -754,10 +931,21 @@ header a:focus {
   border-radius: 50px;
   color: white;
 }
+@media only screen and (max-width: 768px) {
+  .down-title .button-first {
+    width: 170px;
+    margin-left: 15px;
+  }
+}
 .down-title .button-first:hover {
   transition: 1s;
   background: #4ce966;
   color: rgba(250, 248, 245, 0.945);
+}
+@media only screen and (max-width: 768px) {
+  .down-title {
+    padding-top: 30px;
+  }
 }
 
 footer {
