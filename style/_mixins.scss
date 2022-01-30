@@ -17,7 +17,7 @@
   }
 
   @mixin largephone {
-    @media only screen and (min-width: $phone + 1px) {
+    @media only screen and (max-width: $phone) {
       @content;
     }
   }

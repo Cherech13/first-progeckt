@@ -17,12 +17,18 @@
             <img src="/img/Logo.png" alt="rectangle">
         </div>
         <nav>
-            <ul class="navigation">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Signup</a></li>
-            </ul>
+            <div class="burger-menu">
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+                <ul class="navigation">
+                    <li><a class="menu-item" href="#">About</a></li>
+                    <li><a class="menu-item" href="#">Help</a></li>
+                    <li><a class="menu-item" href="#">Features</a></li>
+                    <li><a class="menu-item" href="#">Signup</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="header-button">
             <input type="button" class="button" value="Request Demo &#8594">
